@@ -1,0 +1,59 @@
+#border{
+    width:200px;
+    height:200px;
+    display:block;
+    border:3px dotted black;
+    position:absolute;
+    background: url("img/background.jpg");
+    background-size: 100%;
+}
+
+#victim {
+
+    position: absolute;
+    top: 0;
+}
+
+#shooter  {
+
+    position: absolute;
+    bottom: 0;
+}
+#bullet {
+    position: absolute;
+    bottom: 20px;
+    display: none;
+}
+
+.pictures {
+    width:20px;
+    height: 20px;
+}
+
+#scoreboard {
+    position: absolute;
+    left: 210px;
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    border-top: 3px dotted black;
+    background-color: #92869a;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+#looseorwin {
+    color:white;
+    font-weight: bold;
+}
+a {
+    border: 3px solid black;
+    background-color: #49ff00;
+    font-family: monospace;
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
+    position: absolute;
+    top: 210px;
+    left: 65px;
+    text-decoration: none;
+    padding: 4px;
+}
